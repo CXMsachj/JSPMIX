@@ -1,6 +1,6 @@
 <html>
 <body>
-<b>this is testing of integrating 2 jsp files...!!!!</b>
+<b>this is testing of integrating multiple jsp files...!!!!</b>
 </form>
 </body>
 </html>
