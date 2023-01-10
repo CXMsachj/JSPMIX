@@ -8,12 +8,11 @@ pipeline {
 		      }}
 		stage('Build') {
 	           steps {
-			  sh '/home/swapnil/Documents/GRRAS/apache-maven-3.6.0/bin/mvn install'
+			  sh '/home/sachin/Documents/Jenkins/apache-maven-3.8.6-bin/apache-maven-3.8.6/bin/mvn install'
 	                 }}
 		stage('Deployment'){
 		    steps {
 			
-			sh 'cp target/flipkart.war /home/swapnil/Documents/GRRAS/apache-tomcat-8.5.35/webapps'
+			sh 'cp target/JSPMIX.war /home/sachin/Documents/Jenkins/apache-tomcat-9.0.70/webapps'
 	}
 }}}
-
